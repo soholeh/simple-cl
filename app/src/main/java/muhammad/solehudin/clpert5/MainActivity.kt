@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        imageButton2.setOnClickListener({
+        imageView2.setOnClickListener({
             Toast.makeText(this, "Thanks!",Toast.LENGTH_LONG).show()
         })
 
